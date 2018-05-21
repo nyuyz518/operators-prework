@@ -1,10 +1,10 @@
 def unsafe?(speed)
 if speed > 60
-  return "unsafe"
+  return ture
 elsif speed < 40
-  return "unsafe"
-else 40 <= speed <= 60
-  return "safe"
+  return ture
+else 
+  return false
 end 
 end
 
